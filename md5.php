@@ -27,7 +27,7 @@ echo "exemplo: php md5.php suasenha \n";
 
 	function encriptar(){
 		$encrypt = md5($argv[1]);
-		print "MD5 Encrypted: " . $encrypt;
+		return $encrypt;
 	}
 
 	if(isset($argv[1])){
